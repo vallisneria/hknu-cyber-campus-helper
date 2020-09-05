@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "한경대 사이버캠퍼스 강의 다운로더",
+    "version": "1.0.0",
+    "page_action": {
+        "browser_style": true,
+        "default_popup": "popup/index.html",
+        "default_icon": "icon/main-icon-32.png",
+        "show_matches": [
+            "*://cyber.hknu.ac.kr/ilos/st/course/online_view_form.acl"
+        ]
+    },
+    "permissions": [
+        "downloads",
+        "activeTab"
+    ],
+    "icons": {
+        "32": "icon/main-icon-32.png"
+    }
+}
