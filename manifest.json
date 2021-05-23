@@ -10,6 +10,16 @@
             "*://cyber.hknu.ac.kr/ilos/st/course/online_view_form.acl"
         ]
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://cyber.hknu.ac.kr/ilos/st/course/online_view_form.acl"
+            ],
+            "js": [
+                "src/alert.js"
+            ]
+        }
+    ],
     "permissions": [
         "downloads",
         "activeTab"
