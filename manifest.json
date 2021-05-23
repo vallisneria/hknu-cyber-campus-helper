@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "한경대 사이버캠퍼스 강의 다운로더",
+    "name": "한경대 사이버캠퍼스 강의 도우미",
     "version": "1.0.0",
     "page_action": {
         "browser_style": true,
