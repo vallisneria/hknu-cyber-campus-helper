@@ -5,7 +5,7 @@
     "page_action": {
         "browser_style": true,
         "default_popup": "popup/index.html",
-        "default_icon": "icon/main-icon-32.png",
+        "default_icon": "image/icon/main-icon-32.png",
         "show_matches": [
             "*://cyber.hknu.ac.kr/ilos/st/course/online_view_form.acl"
         ]
@@ -25,6 +25,6 @@
         "activeTab"
     ],
     "icons": {
-        "32": "icon/main-icon-32.png"
+        "32": "image/icon/main-icon-32.png"
     }
 }
